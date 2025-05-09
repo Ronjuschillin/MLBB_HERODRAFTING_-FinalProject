@@ -135,7 +135,9 @@
     <ClCompile Include="Project1.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ColorUtil.h" />
     <ClInclude Include="Hero.h" />
+    <ClInclude Include="HeroFactory.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
