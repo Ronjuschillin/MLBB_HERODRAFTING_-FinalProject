@@ -1,11 +1,17 @@
 // Project1.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
-
+#include <unordered_map>
 #include <iostream>
 
 int main()
 {
-    std::cout << "gari kasta si wahh!\n";
+    std::unordered_map<std::string, std::string> defaultLaneRoles = {
+             {"EXP", "Fighter"},
+             {"Jungle", "Assassin"},
+             {"Mid", "Mage"},
+             {"Gold", "Marksman"},
+             {"Roam", "Tank"}
+    };
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
