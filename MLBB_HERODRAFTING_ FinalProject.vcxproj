@@ -131,14 +131,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Hero.cpp" />
     <ClCompile Include="Project1.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="HeroFactory.h" />
-    <ClInclude Include="resource.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="MLBB_HERODRAFTING_ FinalProject.rc" />
+    <ClInclude Include="Hero.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
