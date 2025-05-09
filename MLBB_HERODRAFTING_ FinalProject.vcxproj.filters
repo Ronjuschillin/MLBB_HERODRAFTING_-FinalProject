@@ -26,5 +26,21 @@
     <ClInclude Include="Hero.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MLBB_HERODRAFTING_ FinalProject.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="E:\MORAO\MLBB EXP Lane Draft Only.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="E:\MORAO\MLBB Hero Draft Sequence Diagram.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
