@@ -2,6 +2,27 @@
 //
 
 #include <iostream>
+#include "Hero.h"
+#include <random>
+#include <unordered_set>
+#include "HeroFactory.h"
+#include <set>
+
+
+
+
+Hero* autoPickHero(const std::string& role, const std::set<std::string>& picked) {
+    const auto& pool = HeroFactory::getHeroPool();
+    std::vector<std::string> available;
+    for (const auto& h : pool.at(role)) {
+        if (!picked.count(h)) available.push_back(h);
+    }
+    if (available.empty()) return nullptr;
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_int_distribution<> dis(0, available.size() - 1);
+    return HeroFactory::createHero(role, available[dis(gen)]);
+}
 
 int main()
 {
