@@ -131,15 +131,25 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ColorUtil.cpp" />
     <ClCompile Include="Hero.cpp" />
     <ClCompile Include="HeroFactory.cpp" />
     <ClCompile Include="Project1.cpp" />
     <ClCompile Include="Team.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ColorUtil.h" />
     <ClInclude Include="Hero.h" />
     <ClInclude Include="HeroFactory.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="Team.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MLBB_HERODRAFTING_ FinalProject.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="E:\MORAO\MLBB EXP Lane Draft Only.png" />
+    <Image Include="E:\MORAO\MLBB Hero Draft Sequence Diagram.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
