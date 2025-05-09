@@ -133,6 +133,7 @@
   <ItemGroup>
     <ClCompile Include="Hero.cpp" />
     <ClCompile Include="Project1.cpp" />
+    <ClCompile Include="Team.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Hero.h" />
