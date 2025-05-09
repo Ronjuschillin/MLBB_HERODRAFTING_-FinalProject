@@ -131,7 +131,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ColorUtil.cpp" />
     <ClCompile Include="Hero.cpp" />
+    <ClCompile Include="HeroFactory.cpp" />
     <ClCompile Include="Project1.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -139,6 +141,7 @@
     <ClInclude Include="Hero.h" />
     <ClInclude Include="HeroFactory.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="Team.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="MLBB_HERODRAFTING_ FinalProject.rc" />
