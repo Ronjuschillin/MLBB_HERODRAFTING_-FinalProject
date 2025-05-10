@@ -9,11 +9,11 @@ void Team::assignHeroToPosition(const std::string& position, Hero* hero) {
 }
 
 void Team::getFormattedTeam(std::vector<std::string>& lines, const std::string& teamName) const {
-
+   
 
     for (const auto& [position, hero] : positionToHero) {
         std::ostringstream line;
-        line << "\033[0m" << std::left << std::setw(8) << position << ":"
+        line << "\033[0m"<< std::left << std::setw(8) << position << ":"
             << std::setw(15) << hero->getName()
             << "[" << hero->getRole() << "]";
         lines.push_back(line.str());
