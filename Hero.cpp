@@ -4,8 +4,7 @@
 
 
 Hero::Hero(const std::string& name, const std::string& role, const std::string& ability)
-    : name(name), role(role), ability(ability) {
-}
+    : name(name), role(role), ability(ability) {}
 
 std::string Hero::getRole() const { return role; }
 std::string Hero::getName() const { return name; }
