@@ -135,7 +135,7 @@
     <ClCompile Include="Google_Test.cpp" />
     <ClCompile Include="Hero.cpp" />
     <ClCompile Include="HeroFactory.cpp" />
-    <ClCompile Include="Project1.cpp" />
+    <ClCompile Include="MLBB Hero Drafting.cpp" />
     <ClCompile Include="Team.cpp" />
   </ItemGroup>
   <ItemGroup>
