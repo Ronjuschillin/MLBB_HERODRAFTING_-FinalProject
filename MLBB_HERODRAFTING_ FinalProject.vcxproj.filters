@@ -30,6 +30,9 @@
     <ClCompile Include="HeroFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Google_Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Hero.h">
@@ -65,5 +68,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="MLBB HERO CLASS DESIGN.cd" />
+    <None Include="packages.config" />
   </ItemGroup>
 </Project>
