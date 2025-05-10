@@ -7,7 +7,7 @@
 #include <unordered_set>
 #include "HeroFactory.h"
 #include <set>
-
+#include <iomanip>
 
 
 std::string toLower(const std::string& str) {
@@ -38,6 +38,13 @@ int main()
              {"Gold", "Marksman"},
              {"Roam", "Tank"}
     };
+
+    std::cout << "\033[1;36m" << std::setfill('*') << std::setw(85) << "\033[0m\n";
+    std::cout << "\n\033[1;36m"
+        << std::setfill('=') << std::setw(35) << "\033[0m"
+        << "\033[1;36m MLBB Hero Drafting \033[0m" << "\033[1;36m"
+        << std::setfill('=') << std::setw(35) << "\033[0m\n\n";
+    std::cout << "\033[1;36m" << std::setfill('*') << std::setw(85) << "\033[0m\n";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
