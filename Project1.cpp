@@ -45,6 +45,7 @@ int main()
         << "\033[1;36m MLBB Hero Drafting \033[0m" << "\033[1;36m"
         << std::setfill('=') << std::setw(35) << "\033[0m\n\n";
     std::cout << "\033[1;36m" << std::setfill('*') << std::setw(85) << "\033[0m\n";
+    const auto& pool = HeroFactory::getHeroPool();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
