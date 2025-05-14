@@ -1,12 +1,12 @@
 #include "HeroFactory.h"
 
 static std::unordered_map<std::string, std::vector<std::string>> heroPool = {
-    {"Assassin", {"Lancelot", "Hayabusa", "Natalia", "Gusion", "Helcurt"}},
-    {"Marksman", {"Lesley", "Brody", "Beatrix", "Miya", "Granger"}},
-    {"Mage", {"Lylia", "Lunox", "Valir", "Eudora", "Kagura"}},
-    {"Support", {"Angela", "Rafaela", "Estes", "Floryn", "Faramis"}},
-    {"Tank", {"Tigreal", "Khufra", "Franco", "Belerick", "Atlas"}},
-    {"Fighter", {"Aldous", "Zilong", "Freya", "Martis", "Leomord"}}
+    {"Assassin", {"Lancelot", "Hayabusa", "Natalia", "Gusion", "Helcurt", "Saber", "Fanny", "LIng", "Karina", "Hanzo"}},
+    {"Marksman", {"Lesley", "Brody", "Beatrix", "Miya", "Granger", "Bruno", "Moskov", "Kimmy", "Natan", "Ixia"}},
+    {"Mage", {"Lylia", "Lunox", "Valir", "Kagura", "Gord", "Harith", "Alice", "Valentina", "Yve", "Kadita"}},
+    {"Support", {"Angela", "Rafaela", "Estes", "Floryn", "Faramis", "Mathilda", "Kaja", "Diggie", "Lalea", " Lolita"}},
+    {"Tank", {"Tigreal", "Khufra", "Franco", "Belerick", "Atlas", "Akai", "Lolita", "Hylos", "Chip", "Grock"}},
+    {"Fighter", {"Aldous", "Yu Zhong", "Freya", "Martis", "Leomord", "Alpha", "X.Borg", "Lucas","Bane", "Sun",}}
 };
 
 Hero* HeroFactory::createHero(const std::string& role, const std::string& name) {
