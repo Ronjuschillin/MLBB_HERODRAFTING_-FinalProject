@@ -37,7 +37,7 @@
   User Role Input (15s Timer)	    The user is prompted to select a hero role (e.g., Fighter for EXP lane). 
                                   If invalid or time runs out, a fallback mechanism triggers.
                                   
-  Role Validation & Retry (5s)	  If the user inputs an invalid role, they're prompted again briefly. 
+  Role Validation & Retry (5s)	   If the user inputs an invalid role, they're prompted again briefly. 
                                   If still invalid or timeout occurs, the system auto-picks a default role.
                                   
   Hero Name Input (30s Timer)	    Once a role is confirmed, the user selects a hero name. 
@@ -48,7 +48,7 @@
                                   
   Enemy Team AI Draft	            After the user pick, the enemy team automatically drafts a hero from the remaining pool.
   
-  Formatted Console Output	      Team compositions are shown in yellow with setw, setfill, and color formatting using Windows.h.
+  Formatted Console Output	       Team compositions are shown in yellow with setw, setfill, and color formatting using Windows.h.
   
   Hero Uniqueness Enforcement	    Ensures no hero is selected more than once across both teams.
   
@@ -61,7 +61,7 @@
   **Design Pattern**   	**Usage**
   Factory Pattern      	Implemented in HeroFactory to create and manage role-based hero objects (createHero(), getHeroPool()).
   
-  Strategy Pattern	    Picking behavior varies depending on user input or timeout.
+  Strategy Pattern	     Picking behavior varies depending on user input or timeout.
                         These picking strategies can be encapsulated as separate algorithms (manual pick vs. auto-pick).
                         
   Template Method       The draft process follows a fixed algorithm (prompt → validate → retry → pick), 
@@ -72,7 +72,8 @@
   **Principle**            	**Description**
   Single Responsibility	    Each class has one well-defined purpose: Hero represents data, HeroFactory manages 
                             hero creation, and Team manages team composition.
-  Open/Closed	              The app is open for extension (e.g., adding new hero roles or timers) without modifying existing logic.
+  Open/Closed	              The app is open for extension (e.g., adding new hero roles or timers)
+                            without modifying existing logic.
   
   
   
