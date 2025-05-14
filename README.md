@@ -1,0 +1,21 @@
+✅ Key Features of MLBB Hero Drafting
+1.	Interactive Role and Hero Selection:
+  •	User is prompted to select a hero role (e.g., EXP).
+  •	Input validation for role and hero name with retries and fallbacks.
+2.	Timeout Mechanism:
+  •	15-second timer for role selection.
+  •	30-second timer for hero selection.
+  •	Auto-picking mechanism when the user fails to respond or chooses invalid input.
+3.	Role-Based Hero Pool:
+  •	Heroes are fetched based on the selected role.
+  •	Auto-pick chooses from the valid role's pool.
+4.	Hero Uniqueness Enforcement:
+  •	Picks consider already-picked heroes to avoid duplicates.
+5.	Team Assignment:
+  •	Heroes are assigned to BlueTeam or RedTeam based on pick turn.
+  •	Each hero is placed into a specific lane (e.g., "EXP").
+6.	Hero Display Info:
+  •	Each hero's info is shown after being picked using Hero::displayInfo().
+7.	Enemy Auto-Pick:
+  •	Enemy team picks automatically after the user completes their pick.
+
