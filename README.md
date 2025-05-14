@@ -33,6 +33,7 @@ The drafting process involves:
 
 **Functionalities**
 
+**Feature**                    	**Description**
 User Role Input (15s Timer)	    The user is prompted to select a hero role (e.g., Fighter for EXP lane). 
                                 If invalid or time runs out, a fallback mechanism triggers.
                                 
@@ -56,7 +57,8 @@ Role-based Hero Factory	        Different heroes are categorized and created bas
 Google Test Integration	        Unit tests validate behavior of Hero, HeroFactory, and Team classes to ensure
                                 logic correctness and reliability.
 
-**Design Pattern	Usage**
+**Design PatternS	UsED**
+**Design Pattern**   	**Usage**
 Factory Pattern      	Implemented in HeroFactory to create and manage role-based hero objects (createHero(), getHeroPool()).
 
 Strategy Pattern	    Picking behavior varies depending on user input or timeout.
