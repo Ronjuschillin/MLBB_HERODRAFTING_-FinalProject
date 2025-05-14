@@ -1,6 +1,5 @@
 #ifndef HERO_H
 #define HERO_H
-
 #include <string>
 #include <iostream>
 #include <windows.h>
