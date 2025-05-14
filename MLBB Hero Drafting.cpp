@@ -71,7 +71,7 @@
                 roleReceived = true;
                 });
 
-            for (int i = 0; i >= 0; --i) {
+            for (int i = 15; i >= 0; --i) {
                 {
                     std::lock_guard<std::mutex> lock(roleMutex);
                     std::string inputLower = toLower(roleInput);
@@ -116,7 +116,7 @@
                 });
 
             bool pickedInTime = false;
-            for (int i = 0; i >= 0; --i) {
+            for (int i = 30; i >= 0; --i) {
                 {
                     std::lock_guard<std::mutex> lock(inputMutex);
                     for (const std::string& candidate : pool.at(chosenRole)) {
