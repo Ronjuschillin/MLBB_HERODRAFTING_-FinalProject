@@ -1,4 +1,15 @@
-✅ Key Features of MLBB Hero Drafting
+**Application Overview**
+MLBB Hero Drafting Console App simulates the hero-picking phase in Mobile Legends: Bang Bang. 
+The drafting process involves:
+  •	Interactive hero selection for the player’s team.
+  •	Automated picks for the enemy team.
+  •	Time-limited input with automatic fallback.
+  •	Role-based drafting and lane assignment.
+  •	Hero uniqueness enforcement to avoid duplicate picks.
+  •	Formatted and color-coded output for better console readability.
+  •	Unit testing using Google Test for reliability.
+
+**Key Features of MLBB Hero Drafting**
 1.	Interactive Role and Hero Selection:
   •	User is prompted to select a hero role (MARKSMAN, TANK, MAGE, ASSASSIN, FIGHTER, SUPPORT).
   •	Input validation for role and hero name with retries and fallbacks.
