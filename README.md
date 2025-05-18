@@ -61,8 +61,7 @@
   
   **Functionalities**
   
-  **Feature**                    	
-                                      **Description**
+  **Feature & Description**
   
   **User Role Input (15s Timer)**	    
                                       The user is prompted to select a hero role (e.g., Fighter for EXP lane). 
@@ -106,8 +105,7 @@
   
   **Design Patterns	Used**
   
-  **Design Pattern**   	
-                                          **Usage**
+  **Design Pattern & Usage**
   
   **Factory Pattern**      	
                                Implemented in HeroFactory to create and manage role-based hero objects (createHero(), getHeroPool()).
@@ -125,8 +123,7 @@
                         
   **SOLID Principles Applied**
   
-  **Principle**
-                                **Description**
+  **PrinciplE & Description**
   
  **Single Responsibility**	     
                                Each class has one well-defined purpose: Hero represents data, HeroFactory manages
