@@ -123,7 +123,7 @@
                         
   **SOLID Principles Applied**
   
-  **PrinciplE & Description**
+  **Principle & Description**
   
  **Single Responsibility**	     
                                Each class has one well-defined purpose: Hero represents data, HeroFactory manages
