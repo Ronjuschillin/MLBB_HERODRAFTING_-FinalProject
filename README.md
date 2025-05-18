@@ -118,16 +118,16 @@
                         
   **SOLID Principles Applied**
   
-  **Principle**            	**Description**
+  **Principle**               	 **Description**
   
-  Single Responsibility	    Each class has one well-defined purpose: Hero represents data, HeroFactory manages 
+ **Single Responsibility**	     Each class has one well-defined purpose: Hero represents data, HeroFactory manages 
   
-                            hero creation, and Team manages team composition.
+                               hero creation, and Team manages team composition.
 
                             
-  Open/Closed	              The app is open for extension (e.g., adding new hero roles or timers)
+  **Open/Closed**	              The app is open for extension (e.g., adding new hero roles or timers)
   
-                            without modifying existing logic.
+                               without modifying existing logic.
   
   
   
