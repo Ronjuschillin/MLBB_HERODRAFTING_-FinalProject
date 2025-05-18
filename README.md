@@ -57,6 +57,8 @@
   7.	**Enemy Auto-Pick:**
 
     •	Enemy team picks automatically after the user completes their pick.
+
+    
   
   
   **Functionalities**
@@ -102,6 +104,9 @@
   **Google Test Integration**	        
                                       Unit tests validate behavior of Hero, HeroFactory, and Team classes to ensure
                                       logic correctness and reliability.
+
+
+                                      
   
   **Design Patterns	Used**
   
@@ -120,6 +125,9 @@
                                The draft process follows a fixed algorithm (prompt → validate → retry → pick),
                                with variable steps filled in (e.g., auto vs. manual pick).
   
+
+
+
                         
   **SOLID Principles Applied**
   
