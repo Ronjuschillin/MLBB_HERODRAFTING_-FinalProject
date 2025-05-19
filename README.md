@@ -34,27 +34,46 @@
     
     •	Auto-picking mechanism when the user fails to respond or chooses invalid input.
     
-  3.	**Role-Based Hero Pool:**
+ 3.  **Lanes: The app covers 5 MLBB lanes:**
+    
+    •	EXP, Jungle, Mid, Gold, Roam
+    
+ 4.  **Default Roles per Lane:**
+ 
+    •	EXP, Jungle, Mid, Gold, Roam
+    
+    •	EXP → Fighter
+    
+    •	Jungle → Assassin
+    
+    •	Mid → Mage
+    
+    •	Gold → Marksman
+    
+    •	Roam → Tank
+
+
+  5.	**Role-Based Hero Pool:**
      
     •	Heroes are fetched based on the selected role.
     
     •	Auto-pick chooses from the valid role's pool.
     
-  4.	**Hero Uniqueness Enforcement:**
+  6.	**Hero Uniqueness Enforcement:**
      
     •	Picks consider already-picked heroes to avoid duplicates.
     
-  5.	**Team Assignment:**
+  7.	**Team Assignment:**
      
     •	Heroes are assigned to BlueTeam or RedTeam based on pick turn.
     
     •	Each hero is placed into a specific lane (GOLD LANE, ROAM, MIDLANE, JUNGLE, EXP).
     
-  6.	**Hero Display Info:**
+  8.	**Hero Display Info:**
      
     •	Each hero's info is shown after being picked using Hero::displayInfo().
     
-  7.	**Enemy Auto-Pick:**
+  9.	**Enemy Auto-Pick:**
 
     •	Enemy team picks automatically after the user completes their pick.
 
