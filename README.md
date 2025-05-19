@@ -40,8 +40,6 @@
     
  4.  **Default Roles per Lane:**
  
-    •	EXP, Jungle, Mid, Gold, Roam
-    
     •	EXP → Fighter
     
     •	Jungle → Assassin
